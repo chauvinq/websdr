@@ -1,0 +1,6 @@
+[submodule "common/hdl_verif"]
+	path = common/hdl_verif
+	url = git@github.com:chauvinq/hdl_verif.git
+[submodule "common/flow"]
+	path = common/flow
+	url = git@github.com:chauvinq/flow.git
