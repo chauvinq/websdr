@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source common/flow/scripts/project_flow.sh
+
+PROJECT_NAME="WEB_SDR"
+
+create_var_project $(pwd) $PROJECT_NAME
+
+echo "Liste des variables :"
+set | grep $PROJECT_NAME
