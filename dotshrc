@@ -2,9 +2,10 @@
 
 source common/flow/scripts/project_flow.sh
 
-PROJECT_NAME="WEB_SDR"
+export PROJECT_NAME="WEB_SDR"
+export PROJECT_ROOT=$(pwd)
 
-create_var_project $(pwd) $PROJECT_NAME
+create_var_project $PROJECT_ROOT $PROJECT_NAME
 
 echo "Liste des variables :"
 set | grep $PROJECT_NAME
