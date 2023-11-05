@@ -1,5 +1,4 @@
 # This file is a general .xdc for the Basys3 rev B board
-# To use it in a project:
 
 set_property -quiet IOSTANDARD LVCMOS33 [get_ports -quiet *]
 
